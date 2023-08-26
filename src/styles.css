@@ -1,0 +1,53 @@
+@import "@radix-ui/colors/slate.css";
+@import "@radix-ui/colors/slate-dark.css";
+@import "@radix-ui/colors/red.css";
+@import "@radix-ui/colors/red-dark.css";
+@import "@radix-ui/colors/green.css";
+@import "@radix-ui/colors/green-dark.css";
+@import "@radix-ui/colors/violet.css";
+@import "@radix-ui/colors/violet-dark.css";
+@import "@radix-ui/colors/mint.css";
+@import "@radix-ui/colors/mint-dark.css";
+@import "@radix-ui/colors/blue.css";
+@import "@radix-ui/colors/blue-dark.css";
+@import "@radix-ui/colors/orange.css";
+@import "@radix-ui/colors/orange-dark.css";
+@import "@radix-ui/colors/yellow.css";
+@import "@radix-ui/colors/yellow-dark.css";
+@import "@radix-ui/colors/black-alpha.css";
+@import "@radix-ui/colors/white-alpha.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --surface: #fff;
+  }
+
+  .dark-theme {
+    --surface: var(--slate-2);
+  }
+
+  .scrollbar-hide {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-neutral-6;
+  }
+  body {
+    @apply bg-neutral-1 text-neutral-12;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
