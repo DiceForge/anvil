@@ -216,7 +216,7 @@ export default {
       },
       boxShadow: {
         subtle: "0px 1px 2px rgba(17, 24, 28, 0.08)",
-        "tab-line": "inset 0 -1px 0 var(--slate6)",
+        "tab-line": "inset 0 -1px 0 var(--slate-6)",
       },
       maxHeight: {
         available: "-webkit-fill-available",
@@ -234,7 +234,7 @@ export default {
       typography: {
         DEFAULT: {
           css: {
-            color: "var(--slate11)",
+            color: "var(--slate-11)",
           },
         },
       },
