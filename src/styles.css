@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600&display=swap');
+
 @import "@radix-ui/colors/slate.css";
 @import "@radix-ui/colors/slate-dark.css";
 @import "@radix-ui/colors/red.css";
@@ -24,6 +26,8 @@
 @layer base {
   :root {
     --surface: #fff;
+    --font-body: Inter;
+    --font-display: Poppins;
   }
 
   .dark-theme {
@@ -45,7 +49,7 @@
     @apply border-neutral-6;
   }
   body {
-    @apply bg-neutral-1 text-neutral-12;
+    @apply bg-neutral-1 text-neutral-12 font-body;
     font-feature-settings: "rlig" 1, "calt" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

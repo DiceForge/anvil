@@ -1,2 +1,1 @@
-export { default as Button } from "./button";
-export * from "./styles.ts";
+export { default } from "./button";

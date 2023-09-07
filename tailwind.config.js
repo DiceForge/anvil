@@ -13,178 +13,186 @@ export default {
       },
     },
     fontSize: {
-      "body-regular-100": [
-        "0.625rem",
-        {
-          lineHeight: "0.875rem",
-          fontWeight: "400",
-        },
-      ],
-      "body-regular-200": [
+      "body-regular-xs": [
         "0.75rem",
         {
           lineHeight: "1.125rem",
           fontWeight: "400",
         },
       ],
-      "body-regular-300": [
+      "body-regular-sm": [
         "0.875rem",
         {
           lineHeight: "1.25rem",
           fontWeight: "400",
         },
       ],
-      "body-regular-400": [
+      "body-regular-md": [
         "1rem",
         {
           lineHeight: "1.5rem",
           fontWeight: "400",
         },
       ],
-      "body-regular-500": [
+      "body-regular-lg": [
         "1.125rem",
         {
           lineHeight: "1.625rem",
           fontWeight: "400",
         },
       ],
-      "body-regular-600": [
+      "body-regular-xl": [
         "1.25rem",
         {
           lineHeight: "1.875rem",
           fontWeight: "400",
         },
       ],
-      "body-medium-100": [
-        "0.625rem",
-        {
-          lineHeight: "0.875rem",
-          fontWeight: "500",
-        },
-      ],
-      "body-medium-200": [
+      "body-medium-xs": [
         "0.75rem",
         {
           lineHeight: "1.125rem",
           fontWeight: "500",
         },
       ],
-      "body-medium-300": [
+      "body-medium-sm": [
         "0.875rem",
         {
           lineHeight: "1.25rem",
           fontWeight: "500",
         },
       ],
-      "body-medium-400": [
+      "body-medium-md": [
         "1rem",
         {
           lineHeight: "1.5rem",
           fontWeight: "500",
         },
       ],
-      "body-medium-500": [
+      "body-medium-lg": [
         "1.125rem",
         {
           lineHeight: "1.625rem",
           fontWeight: "500",
         },
       ],
-      "body-medium-600": [
+      "body-medium-xl": [
         "1.25rem",
         {
           lineHeight: "1.875rem",
           fontWeight: "500",
         },
       ],
-      "body-semibold-100": [
-        "0.625rem",
-        {
-          lineHeight: "0.875rem",
-          fontWeight: "600",
-        },
-      ],
-      "body-semibold-200": [
+      "body-semibold-xs": [
         "0.75rem",
         {
           lineHeight: "1.125rem",
           fontWeight: "600",
         },
       ],
-      "body-semibold-300": [
+      "body-semibold-sm": [
         "0.875rem",
         {
           lineHeight: "1.25rem",
           fontWeight: "600",
         },
       ],
-      "body-semibold-400": [
+      "body-semibold-md": [
         "1rem",
         {
           lineHeight: "1.5rem",
           fontWeight: "600",
         },
       ],
-      "body-semibold-500": [
+      "body-semibold-lg": [
         "1.125rem",
         {
           lineHeight: "1.625rem",
           fontWeight: "600",
         },
       ],
-      "body-semibold-600": [
+      "body-semibold-xl": [
         "1.25rem",
         {
           lineHeight: "1.875rem",
           fontWeight: "600",
         },
       ],
-      header6: [
+
+      "body-bold-xs": [
+        "0.75rem",
+        {
+          lineHeight: "1.125rem",
+          fontWeight: "800",
+        },
+      ],
+      "body-bold-sm": [
+        "0.875rem",
+        {
+          lineHeight: "1.25rem",
+          fontWeight: "800",
+        },
+      ],
+      "body-bold-md": [
+        "1rem",
+        {
+          lineHeight: "1.5rem",
+          fontWeight: "800",
+        },
+      ],
+      "body-bold-lg": [
+        "1.125rem",
+        {
+          lineHeight: "1.625rem",
+          fontWeight: "800",
+        },
+      ],
+      "body-bold-xl": [
+        "1.25rem",
+        {
+          lineHeight: "1.875rem",
+          fontWeight: "800",
+        },
+      ],
+      "display-xs": [
         "1.5rem",
-        {
-          lineHeight: "1.5rem",
-          fontWeight: "600",
-        },
-      ],
-      header5: [
-        "2rem",
         {
           lineHeight: "2rem",
           fontWeight: "600",
         },
       ],
-      header4: [
-        "2.5rem",
+      "display-sm": [
+        "1.875rem",
         {
-          lineHeight: "2.5rem",
+          lineHeight: "2.375",
           fontWeight: "600",
         },
       ],
-      header3: [
+      "display-md": [
+        "2.25rem",
+        {
+          lineHeight: "2.75rem",
+          fontWeight: "600",
+        },
+      ],
+      "display-lg": [
         "3rem",
         {
-          lineHeight: "3rem",
+          lineHeight: "3.75rem",
           fontWeight: "600",
         },
       ],
-      header2: [
-        "3.5rem",
+      "display-xl": [
+        "3.75rem",
         {
-          lineHeight: "3.5rem",
+          lineHeight: "4.5rem",
           fontWeight: "600",
         },
       ],
-      header1: [
-        "4rem",
-        {
-          lineHeight: "4rem",
-          fontWeight: "600",
-        },
-      ],
-      title: [
+      "display-2xl": [
         "4.5rem",
         {
-          lineHeight: "1rem",
+          lineHeight: "5.625rem",
           fontWeight: "600",
         },
       ],
@@ -201,13 +209,13 @@ export default {
         orange: generateScale("orange"),
 
         primary: generateScale("violet"),
-        accent: generateScale("mint"),
         neutral: generateScale("slate"),
+        info: generateScale("blue"),
         danger: generateScale("red"),
         success: generateScale("green"),
 
-        blackA: generateScale("blackA"),
-        whiteA: generateScale("whiteA"),
+        blackA: generateScale("black"),
+        whiteA: generateScale("white"),
 
         surface: "var(--surface)",
       },
@@ -220,6 +228,20 @@ export default {
       },
       maxHeight: {
         available: "-webkit-fill-available",
+      },
+      height: {
+        xs: "1.5rem",
+        sm: "2rem",
+        md: "2.5rem",
+        lg: "3rem",
+        xl: "3.5rem",
+      },
+      minHeight: {
+        xs: "1.5rem",
+        sm: "2rem",
+        md: "2.5rem",
+        lg: "3rem",
+        xl: "3.5rem",
       },
       borderRadius: {
         sm: "4px",
@@ -276,17 +298,24 @@ export default {
       },
     },
   },
-  plugins: [import("tailwindcss-animate"), import("@tailwindcss/typography")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
 
 function generateScale(name) {
   let scale = Array.from({ length: 12 }, (_, i) => {
     let id = i + 1;
+
+    if (["black", "white"].includes(name)) {
+      id = `a${id}`;
+    }
+
     return [
       [id, `var(--${name}-${id})`],
       [`a${id}`, `var(--${name}-a${id})`],
     ];
   }).flat();
+
+  console.log(scale);
 
   return Object.fromEntries(scale);
 }
